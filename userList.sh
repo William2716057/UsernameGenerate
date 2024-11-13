@@ -8,7 +8,8 @@ generateList() {
 
 	for ((i=0; i<$len; i++)); do
 #		for ((j=i+1; j<$len; j++)); do
-			echo "${arr[i]}@gmail.com"
+		local space_remove="${arr[i]// /}"
+		echo "${space_remove}@gmail.com"
 	done
 }
 
