@@ -8,7 +8,7 @@ generateList() {
 
 	for ((i=0; i<$len; i++)); do
 #		for ((j=i+1; j<$len; j++)); do
-			echo "${arr[i]}"
+			echo "${arr[i]}@gmail.com"
 	done
 }
 
