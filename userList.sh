@@ -7,9 +7,8 @@ generateList() {
 	local len=${#arr[@]}
 
 	for ((i=0; i<$len; i++)); do
-		for ((j=i+1; j<$len; j++)); do
-			echo "${arr[i]}${arr[j]}"
-		done
+#		for ((j=i+1; j<$len; j++)); do
+			echo "${arr[i]}"
 	done
 }
 
